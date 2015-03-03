@@ -1,0 +1,2 @@
+* 9-22 * * * /home/terry/overthewall/bin/q2.sh >> /var/log/overthewallog/vpn.log
+*/2 * * * * /home/terry/overthewall/bin/run_overthewall.sh >> /var/log/overthewallog/run_overthewall.log 2>&1
